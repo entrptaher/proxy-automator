@@ -1,8 +1,18 @@
 {
   "apps": [{
-      "name": "PROXY",
+      "name": "PROXY_0",
       "script": "pautomator.js",
-      "node_args": "-local_host 0.0.0.0 -local_port 3000 -remote_host HOST -remote_port PORT"
+      "args": "-local_host 0.0.0.0 -local_port 30000 -remote_host HOST -remote_port PORT"
+    },
+    {
+      "name": "PROXY_3",
+      "script": "pautomator.js",
+      "args": "-local_host 0.0.0.0 -local_port 30003 -remote_host HOST -remote_port PORT"
+    },
+    {
+      "name": "PROXY_15",
+      "script": "pautomator.js",
+      "args": "-local_host 0.0.0.0 -local_port 30015 -remote_host HOST -remote_port PORT"
     }
   ]
 }
