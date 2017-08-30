@@ -1,0 +1,8 @@
+{
+  "apps": [{
+      "name": "PROXY",
+      "script": "pautomator.js",
+      "node_args": "-local_host 0.0.0.0 -local_port 3000 -remote_host HOST -remote_port PORT"
+    }
+  ]
+}
